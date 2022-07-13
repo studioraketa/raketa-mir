@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
+import reset from './reset'
 
 const LanguageSwitcherWrapper = styled.div`
+  ${reset};
   position: relative;
   display: flex;
   flex-wrap: nowrap;
@@ -18,6 +20,7 @@ const LanguageSwitcherWrapper = styled.div`
 `
 
 const LanguageSwitcherMenu = styled.div`
+  ${reset};
   position: absolute;
   z-index: 9;
   left: -1000px;
@@ -30,6 +33,7 @@ const LanguageSwitcherMenu = styled.div`
 `
 
 const LanguageSwitcherItem = styled.div`
+  ${reset};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,6 +54,7 @@ const LanguageSwitcherItem = styled.div`
 `
 
 const LanguageSwitcherNewItem = styled.div`
+  ${reset};
   position: relative;
   width: 48px;
   height: 48px;
@@ -88,6 +93,7 @@ const LanguageSwitcherNewItem = styled.div`
 `
 
 const LanguageSwitcherCurrent = styled.div`
+  ${reset};
   position: relative;
   z-index: 10;
   display: flex;
